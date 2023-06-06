@@ -1,0 +1,31 @@
+công thức quy hoạc động cho dãy con tăng dài nhất
+L[i]= max(L[i], L[j]+1)
+j(- [0,i-1], a(i)>a(j)
+L[i]= V i(- [0, n-1]
+
+Ví dụ
+     0   1   2   3   4   5
+     1   3   2   8   4   5 | a
+L    1   2   2   3   3   4
+
+* a1>a0 => L1=max(L1, L0+1)
+
+* a2>a0 => L2 = max(L2, L0+1)
+* a2<a1 Không cập nhập được
+
+
+*a3>a0 => L3= max(L3, L0+1)=2
+*a3>a1 => L3= max(L3, L1+1)=3
+*a3>a2 => L3= max(L3, L2+1)=3
+
+
+*a4>a0 => L4 = max(L4, L0+1)=2
+*a4>a1 => L4 = max(L4, L1+1)=3
+*a4>a2 => L4 = max(L4, L2+1)=3
+*a4<a3 => không có gì thay đổi
+
+*a5>a0 => L5= max(L5, L0+1)=2
+*a5>a1 => L5= max(L5, L1+1)=3
+*a5>a2 => L5= max(L5, L2+1)=3
+*a5<a3 => không có gì thay đổi
+*a5>a4 => L5= max(L5, L4+1)=4

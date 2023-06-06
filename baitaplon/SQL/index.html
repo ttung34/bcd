@@ -1,0 +1,29 @@
+{% extends "layout.html" %} 
+
+{% block title %} 
+    diemsv
+{% endblock %} 
+
+{% block body %} 
+    <h1>Tra cuu diem</h1>
+    
+    <form action="{{ url_for('book') }}" method=""post>
+
+        <div class="from-group">
+            <select class="form-control" name="diemsv_id">
+                {% for diem in diemsv %} 
+                    <option value="{{ diemsv.id }}">{{diemsv.hoten}},{{diemsv.diem_a}},{{diemsv.diem_b}},{{diemsv.diem_c}}</option>
+                {% endfor %} 
+            </select>
+        </div>
+
+        <div class="from-group">
+            <input class="form-control" name placeholder="python">
+        </div>
+
+        <div class="from-group">
+            <button class="btn btn-primary">Tra cuu diem</button>
+        </div>
+    
+    </form>
+{% endblock %} 

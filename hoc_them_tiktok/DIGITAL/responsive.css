@@ -1,0 +1,41 @@
+/* day la respoinsive moblie */
+@media all and (max-width : 600px){
+    /* Day la code cua navbar container */
+    .container .Navbar-container .navbar-container_list{
+        display: none;
+    }
+
+    .container .Navbar-container .navbar-container_icon{
+        display: block;
+    }
+
+    .container .Hero-container{
+        flex-direction: column;
+    }
+
+    .container .Hero-container .hero-container_image{
+        width: 100%;
+    }
+
+    /* .Hero-container */
+    .container .Hero-container{
+        flex-direction: column;
+        margin-top: 44px;
+        height:auto;
+
+    }
+
+    .container .Hero-container .Hero-container_content{
+        height: 260px;
+        padding: 0%;
+    }
+
+    .container .Hero-container .Hero-container_content h1{
+        font-size: 1.9375rem;
+    }
+
+    .container .Hero-container .hero-container_image{
+        width: 100%;
+        margin-top: 48px;
+    }
+}

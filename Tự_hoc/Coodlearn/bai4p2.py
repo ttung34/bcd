@@ -1,0 +1,5 @@
+a = int(input("nhap vao so a "))
+b = int(input("nhap vao so b "))
+c = int(input("nhap vao so c "))
+d = int(input("nhap vao so d "))
+print("result evaluation is", (a < b) and (c < d))

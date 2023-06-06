@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+/* Reset CSS */
+/* Viet css lan luot tu dau den cuooi */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+
+}
+
+/* Code cho phan navbar container */
+
+.container .Navbar-container{
+    width: 80%;
+    height: 28px;
+    background-color: #F5F5F5;
+    margin: 46px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .Navbar-container .navbar-container_title{
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+
+.container .Navbar-container .navbar-container_list{
+    display: flex;
+    list-style: none;
+}
+
+.container .Navbar-container .navbar-container_list .navbar-container_item{
+    margin-left: 44px;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.container .Navbar-container .navbar-container_icon{
+    display: none;
+}
+
+
+/* Hero container */
+
+.container .Hero-container{
+    width: 80%;
+    height: 450px;
+    background-color:aliceblue;
+    margin: 99px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .Hero-container .Hero-container_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 42px 0 49px 0;
+    align-items: flex-start;
+}
+
+
+.container .Hero-container .Hero-container_content h1{
+    font-weight: 700;
+    font-size: 4rem;
+    mawidth: 540px;
+}
+
+.container .Hero-container .Hero-container_content p{
+    font-weight: 400;
+    font-size: 1.125rem;
+    max-width: 515px;
+}
+
+.container .Hero-container .Hero-container_content button{
+    border: none;
+    padding: 10px 31px;
+    background-color: #8EADD5;
+    color: #F5F5F5;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+
+.container .Hero-container .hero-container_image{
+    width: 50%;
+    height: 100%;
+}
+
+/* Companies container */
+.container .companies-container{
+    width: 72%;
+    background-color:hotpink;
+    margin: 0 auto 0;
+}
+.companies-container p{
+    /* text-align: center; chinh chu vao giua */
+}
+
+
